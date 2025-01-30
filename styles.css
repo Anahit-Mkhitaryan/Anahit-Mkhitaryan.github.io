@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #94af84;
+  background-color: #d5e3ac;
   color: #333;
 }
 
@@ -101,14 +101,14 @@ main {
 }
 
 footer {
-  background-color: #333;
+  background-color: #444c9d;
   color: white;
   text-align: center;
-  padding: 20px 0;
-  margin-top: 40px;
+  padding: 2vh 0;
+  margin-top: 2vh;
 }
 
 footer p {
-  font-size: 10em;
+  font-size: 1em;
 }
 
