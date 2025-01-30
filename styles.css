@@ -16,6 +16,7 @@ body {
 
 .cover-photo {
   /*position: relative;*/
+  object-fit: cover;
   width: 100%;
   height: 30vh; /* Adjust the height to your preference */
   background-image: url('images/Streams_of_Thought_Anahit_Mkhitaryan.JPG'); /* Path to your cover photo */
@@ -34,22 +35,21 @@ body {
   z-index: 1; /* Ensures text appears on top of the cover photo */
 }
 
-/* Optional: Add shadow or background color for better readability */
-.cover-photo h1 {
-  font-size: 36px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Makes the text stand out */
-}
-
-.cover-photo p {
-  font-size: 18px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-}
-
+/* Profile picture styles */
 .profile_picture {
-  float: left;
-  margin-right: 0.1vw;
-  width: 1vw;
-  height: 1vh;
+  position: absolute;
+  left: 5%; /* Position the image on the left */
+  bottom: 10%; /* Adjust placement within the cover photo */
+  width: 120px; /* Set a fixed width */
+  height: 120px; /* Set a fixed height */
+}
+
+.profile_picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; /* Makes the image circular */
+  border: 4px solid white; /* Optional: Adds a white border for contrast */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Adds shadow for better visibility */
 }
 
 h1, h2, h3 {
