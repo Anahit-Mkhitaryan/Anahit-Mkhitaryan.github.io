@@ -79,7 +79,7 @@ header p {
 }
 
 .projects {
-  margin: 40px 0;
+  margin: 2vh 0;
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ header p {
 }
 
 main {
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -124,7 +124,7 @@ footer {
 }
 
 .footer-container p {
-  font-size: 5vh;
+  font-size: 3vh;
   margin-bottom: 2%;
 }
 
