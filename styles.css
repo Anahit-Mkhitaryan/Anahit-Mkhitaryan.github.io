@@ -1,4 +1,5 @@
-/* General Styles */
+/* styles.css */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -18,21 +19,24 @@ body {
   position: absolute;
   left: 5%; /* Position the image on the left */
   top: 1.7%; /* Adjust placement within the cover photo */
-  width: 15%; /* Set a width based on percentage */
-  max-width: 150px; /* Optional: set a max-width for better control */
+  width: 15%;
 }
 
 .profile_picture img {
   width: 100%;
-  height: auto; /* Ensure the image maintains its aspect ratio */
+  height: auto;
   border-radius: 50%;
   border: 1px solid #94af84;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Optional: Adds shadow for better visibility */
 }
 
-/* Headings (adjusting font sizes with percentages for responsiveness) */
 h1, h2, h3 {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 header {
@@ -42,19 +46,18 @@ header {
   background-position: center;
   color: white;
   text-align: center;
-  padding: 10% 0; /* Adjusting padding to be percentage-based */
+  padding: 10% 0;
 }
 
 header h1 {
-  font-size: 4vw; /* Responsive font size */
+  font-size: 10vw;
 }
 
 header p {
-  font-size: 2vw; /* Responsive font size */
-  margin-top: 10px;
+  font-size: 10vw;
+  margin-top: 1%;
 }
 
-/* Projects Section */
 .projects {
   margin: 40px 0;
   text-align: center;
@@ -62,13 +65,11 @@ header p {
 
 .project-card {
   background-color: #fff;
-  padding: 5%; /* Set padding as a percentage */
-  margin: 5%; /* Set margin as a percentage */
+  padding: 5%;
+  margin: 5%;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 90%; /* Set a width based on percentage */
-  max-width: 600px; /* Optional: Max width to avoid excessive stretching */
 }
 
 .project-card:hover {
@@ -77,25 +78,22 @@ header p {
 }
 
 .project-card h3 {
-  font-size: 2vw; /* Responsive font size */
+  font-size: 5vw;
 }
 
 .project-card p {
   color: #555;
-  font-size: 1.2vw; /* Responsive font size */
 }
 
-/* Footer */
 footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 5% 0; /* Percentage padding */
+  padding: 20px 0;
   margin-top: 40px;
 }
 
 footer p {
-  font-size: 1.5vw; /* Responsive font size */
+  font-size: 1.5vw;
 }
-
 
