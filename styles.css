@@ -11,12 +11,18 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0;
 }
-
 
 h1, h2, h3 {
   margin: 0;
+}
+h2 {
+  font-size: 6vh;
+}
+
+h3 {
+  font-size: 4vh;
 }
 
 a {
@@ -47,7 +53,6 @@ header p {
   margin-top: 1%;
   text-shadow: 3px 3px 5px #425732;
 }
-
 
 /* Profile picture styles */
 .profile_picture {
