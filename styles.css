@@ -60,11 +60,11 @@ a {
   color: inherit;
 }
 
-header {
+/*header {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 50px 0;
+  padding: 0 0;
 }
 
 header h1 {
@@ -74,7 +74,7 @@ header h1 {
 header p {
   font-size: 1.2em;
   margin-top: 10px;
-}
+}*/
 
 .projects {
   margin: 40px 0;
