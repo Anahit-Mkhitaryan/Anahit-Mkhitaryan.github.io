@@ -40,7 +40,7 @@ a {
 }
 
 header {
-  height: 30vh;
+  height: 30%;
   background-color: #333;
   background-image: url("images/Streams_of_Thought_Anahit_Mkhitaryan.JPG");
   background-size: cover;
@@ -51,11 +51,11 @@ header {
 }
 
 header h1 {
-  font-size: 3vh;
+  font-size: 30px;
 }
 
 header p {
-  font-size: 3vh;
+  font-size: 20px;
   margin-top: 50%;
 }
 
