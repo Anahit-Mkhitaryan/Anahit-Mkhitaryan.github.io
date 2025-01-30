@@ -1,5 +1,4 @@
-/* styles.css */
-
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -14,11 +13,12 @@ body {
   padding: 20px;
 }
 
+/* Cover Photo and Text */
 .cover-photo {
   position: relative;
   width: 100%;
   height: 300px; /* Adjust the height to your preference */
-  background-image: url('images/cover-photo.jpg'); /* Path to your cover photo */
+  background-image: url('images/Streams_of_Thought_Anahit_Mkhitaryan.JPG'); /* Path to your cover photo */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -28,13 +28,12 @@ body {
   text-align: center;
 }
 
-/* Styling for the text over the cover photo */
 .cover-photo h1, .cover-photo p {
   margin: 0;
   z-index: 1; /* Ensures text appears on top of the cover photo */
 }
 
-/* Optional: Add shadow or background color for better readability */
+/* Styling for text over the cover photo */
 .cover-photo h1 {
   font-size: 36px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Makes the text stand out */
@@ -45,36 +44,27 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-.profile_picture {
-  float: left;
-  margin-right: 1vw;
-}
-
-h1, h2, h3 {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-header {
-  background-color: #333;
-  color: white;
+/* Profile Picture */
+.container.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 50px 0;
 }
 
-header h1 {
-  font-size: 2.5em;
+.profile_picture {
+  margin-right: 20px; /* Space between the picture and text */
 }
 
-header p {
-  font-size: 1.2em;
-  margin-top: 10px;
+.profile_picture img {
+  width: 150px; /* Adjust size of profile picture */
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white; /* Optional: Border around the profile picture */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Project Cards */
 .projects {
   margin: 40px 0;
   text-align: center;
@@ -102,6 +92,7 @@ header p {
   color: #555;
 }
 
+/* Footer */
 footer {
   background-color: #333;
   color: white;
@@ -112,5 +103,43 @@ footer {
 
 footer p {
   font-size: 1em;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container.profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile_picture {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .cover-photo h1 {
+    font-size: 28px;
+  }
+
+  .cover-photo p {
+    font-size: 16px;
+  }
 }
 
