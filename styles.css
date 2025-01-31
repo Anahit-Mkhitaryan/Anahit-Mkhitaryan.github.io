@@ -78,8 +78,8 @@ header p {
 /* Profile Picture - Scales proportionally */
 .profile_picture {
   position: absolute;
-  left: 5vw; /* Keep it proportional */
-  top: 5vh;
+  left: 2.5vw; /* Keep it proportional */
+  top: 2.5vh;
   width: 30vw; /* Adjusts dynamically */
   max-width: 25vh; /* Prevents it from getting too big */
 }
