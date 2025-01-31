@@ -93,7 +93,8 @@ header p {
 }
 
 .projects {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Auto-scaling */
   gap: 2vw; /* Adjust spacing proportionally */
   justify-content: center;
