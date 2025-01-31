@@ -65,13 +65,13 @@ header {
 
 /* Scale header text dynamically */
 header h1 {
-  font-size: 5vw; /* Scales with screen width */
+  font-size: 3vw; /* Scales with screen width */
   margin-top: 2%;
   text-shadow: 3px 3px 5px #425732;
 }
 
 header p {
-  font-size: 3vw;
+  font-size: 2vw;
   text-shadow: 3px 3px 5px #425732;
 }
 
@@ -81,7 +81,7 @@ header p {
   left: 5vw; /* Keep it proportional */
   top: 5vh;
   width: 30vw; /* Adjusts dynamically */
-  max-width: 20vh; /* Prevents it from getting too big */
+  max-width: 25vh; /* Prevents it from getting too big */
 }
 
 .profile_picture img {
