@@ -81,7 +81,7 @@ header p {
   left: 5vw; /* Keep it proportional */
   top: 5vh;
   width: 30vw; /* Adjusts dynamically */
-  max-width: 300px; /* Prevents it from getting too big */
+  max-width: 20vh; /* Prevents it from getting too big */
 }
 
 .profile_picture img {
