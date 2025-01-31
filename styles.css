@@ -85,7 +85,8 @@ header p {
 
 .project-card {
   width: 100%;
-  height: 12vh;
+  /* height: 12vh;*/
+  alignment: center;
   background-color: #fff;
   padding: 20px;
   margin: 20px;
@@ -110,7 +111,7 @@ header p {
 main {
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
