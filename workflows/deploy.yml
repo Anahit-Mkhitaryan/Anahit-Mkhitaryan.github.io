@@ -1,0 +1,21 @@
+name: Force Update GitHub Pages
+on:
+  push:
+    branches:
+      - main  # Change if your branch is different
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Force update
+        run: |
+          git rm -rf --cached .
+          git add .
+          git commit -m "Force GitHub Pages update" --allow-empty
+          git push
