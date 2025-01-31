@@ -88,6 +88,10 @@ header p {
 }
 
 .projects {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   margin: 2vh 0;
   text-align: center;
 }
@@ -115,13 +119,6 @@ header p {
 
 .project-card p {
   color: #555;
-}
-
-main {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 
 footer {
