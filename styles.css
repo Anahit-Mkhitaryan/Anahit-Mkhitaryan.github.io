@@ -21,6 +21,8 @@ html, body {
   height: 100%; /* Ensure full height */
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -129,11 +131,11 @@ header p {
 
 .container {
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
-
+/*
 footer {
   alignment: bottom;
   height: 20vh;
@@ -141,7 +143,17 @@ footer {
   color: white;
   text-align: center;
   padding: 0;
-  /*margin-top: 5vh;*/
+
+}*/
+
+footer {
+  flex-shrink: 0;  /* Prevent the footer from shrinking */
+  height: 20vh;
+  background-color: #444c9d;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin-top: auto; /* Pushes footer to the bottom */
 }
 
 .footer-container p {
