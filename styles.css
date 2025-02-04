@@ -102,6 +102,11 @@ header p {
   margin: 5vh 2vw;
 }
 
+.projects h2 {
+  background-color: #6e7aff;
+  color: white;
+}
+
 .project-card {
   background-color: #fff;
   padding: 2vw;
