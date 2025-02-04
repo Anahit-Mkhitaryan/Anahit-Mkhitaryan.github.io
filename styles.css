@@ -130,9 +130,8 @@ footer {
   height: 20vh;
   background-color: #444c9d;
   color: white;
-  text-align: center;
-  padding: 6vh 0;
-  margin-top: 10vh;
+  padding: 2vh 0;
+  margin-top: 5vh;
 }
 
 .footer-container p {
