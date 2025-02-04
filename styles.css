@@ -125,6 +125,7 @@ header p {
 }
 
 footer {
+  alignment: bottom;
   height: 20vh;
   background-color: #444c9d;
   color: white;
