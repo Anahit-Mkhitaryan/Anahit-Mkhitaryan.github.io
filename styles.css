@@ -99,7 +99,7 @@ header p {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Auto-scaling */
   gap: 2vw; /* Adjust spacing proportionally */
   justify-content: center;
-  margin: 5vh 2vw;
+  margin: 0 0 5vh;
 }
 
 .projects h2 {
