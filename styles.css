@@ -23,11 +23,6 @@ html, body {
   padding: 0;
 }
 
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-}
 
 h1, h2, h3 {
   margin: 0;
@@ -132,13 +127,20 @@ header p {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
 footer {
   alignment: bottom;
   height: 20vh;
   background-color: #444c9d;
   color: white;
   text-align: center;
-  padding: 2vh 0;
+  padding: 0;
   /*margin-top: 5vh;*/
 }
 
