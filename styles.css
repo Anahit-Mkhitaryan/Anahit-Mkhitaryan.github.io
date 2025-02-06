@@ -48,6 +48,7 @@ a {
 header {
   position: relative;
   height: 30vh; /* Scales based on viewport height */
+  min-height: 300px;
   background-color: #333;
   background-image: url("images/Streams_of_Thought_Anahit_Mkhitaryan.JPG");
   background-size: cover;
@@ -134,17 +135,6 @@ header p {
   margin: 0;
   padding: 0;
 }
-
-/*
-footer {
-  alignment: bottom;
-  height: 20vh;
-  background-color: #444c9d;
-  color: white;
-  text-align: center;
-  padding: 0;
-
-}*/
 
 footer {
   flex-shrink: 0;  /* Prevent the footer from shrinking */
