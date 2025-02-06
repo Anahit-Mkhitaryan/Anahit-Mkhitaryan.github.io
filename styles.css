@@ -139,24 +139,19 @@ header h1 {
 }
 
 footer {
-  flex-shrink: 0;  /* Prevent the footer from shrinking */
-  height: 20vh;
-  background-color: #444c9d;
-  color: white;
-  text-align: center;
-  align-items: center;
-  padding: 0;
-  margin-top: auto; /* Pushes footer to the bottom */
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  flex-shrink: 0; /* Prevent the footer from shrinking */
+  height: 20vh; /* Sets footer height to 20% of the viewport height */
+  background-color: #444c9d; /* Background color */
+  color: white; /* Text color */
+  text-align: center; /* Center the text */
+  padding: 0; /* No internal padding */
+  margin-top: auto; /* Pushes footer to the bottom of the page */
+  gap: 20px; /* Horizontal space between the items */
 }
 
-/*footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  background-color: #333;
-  padding: 10px 0;
-}*/
 
 .footer-icon {
   color: white;
