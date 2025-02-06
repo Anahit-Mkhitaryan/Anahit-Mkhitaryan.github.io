@@ -159,9 +159,9 @@ footer {
 
 .footer-icon {
   color: white;
-  font-size: 3vh;
+  font-size: 4vh;
   transition: color 0.3s;
-  margin-bottom: 2vh;
+  margin: 0 10px;
 }
 
 .footer-icon:hover {
