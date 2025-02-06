@@ -158,9 +158,8 @@ footer {
 }*/
 
 .footer-icon {
-  width: 5vh;
   color: white;
-  font-size: 24px;
+  font-size: 5vh;
   transition: color 0.3s;
 }
 
