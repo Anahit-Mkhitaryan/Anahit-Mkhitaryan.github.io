@@ -48,8 +48,8 @@ a {
 /* Ensure header scales proportionally */
 header {
   position: relative;
-  height: 30vh; /* Scales based on viewport height */
-  min-height: 170px;
+  height: auto; /* Scales based on viewport height */
+  /*min-height: 170px;*/
   background-color: #333;
   background-image: url("images/Streams_of_Thought_Anahit_Mkhitaryan.JPG");
   background-size: cover;
@@ -60,18 +60,19 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 }
 
 /* Scale header text dynamically */
 header h1 {
-  font-size: 3vw; /* Scales with screen width */
-  margin-top: 2%;
+  font-size: 2rem; /* Scales with screen width */
+  margin-top: 1rem;
   text-shadow: 3px 3px 5px #425732;
 }
 
 .cover p {
   font-style: oblique;
-  font-size: 2vw;
+  font-size: 1.5rem;
   text-shadow: 3px 3px 5px #425732;
 }
 
