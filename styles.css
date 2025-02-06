@@ -148,6 +148,25 @@ footer {
   margin-top: auto; /* Pushes footer to the bottom */
 }
 
+/*footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #333;
+  padding: 10px 0;
+}*/
+
+.footer-icon {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.footer-icon:hover {
+  color: #f0f0f0;
+}
+
 .footer-container p {
   font-size: 3vh;
   margin-top: 5vh;
