@@ -48,7 +48,7 @@ a {
 /* Ensure header scales proportionally */
 header {
   position: relative;
-  height: auto; /* Scales based on viewport height */
+  height: 30vh; /* Scales based on viewport height */
   /*min-height: 170px;*/
   background-color: #333;
   background-image: url("images/Streams_of_Thought_Anahit_Mkhitaryan.JPG");
@@ -60,7 +60,19 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10rem;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  header {
+    height: 35vh; /* Adjusted height for Chrome */
+  }
+}
+
+/* Microsoft Edge specific styles */
+@supports (-ms-ime-align:auto) {
+  header {
+    height: 25vh; /* Adjusted height for Edge */
+  }
 }
 
 /* Scale header text dynamically */
