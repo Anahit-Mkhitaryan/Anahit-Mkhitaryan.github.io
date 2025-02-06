@@ -47,7 +47,7 @@ a {
 /* Ensure header scales proportionally */
 header {
   position: relative;
-  height: 40vh; /* Scales based on viewport height */
+  height: 60vh; /* Scales based on viewport height */
   background-color: #333;
   background-image: url("images/Streams_of_Thought_Anahit_Mkhitaryan.JPG");
   background-size: cover;
